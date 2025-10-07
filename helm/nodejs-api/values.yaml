@@ -2,14 +2,11 @@ deployment:
   name: backend
   replicas: 1
   repository: iagouvea/backend
-  tag: "9e6acc9"
-
-
+  tag: "7ee2db6"
 service:
   name: backend-svc
   type: ClusterIP
   port: 80
-
 ingress:
   enabled: true
   name: backend-ingress
