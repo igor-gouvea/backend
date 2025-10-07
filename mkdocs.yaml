@@ -1,0 +1,11 @@
+site_name: 'backend'
+site_description: 'Main documentation for the backend'
+repo_url: https://github.com/iagouvea/backend
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
