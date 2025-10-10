@@ -18,3 +18,10 @@ spec:
   owner: group:default/development
   lifecycle: production
   system: projeto-1
+  dependencyOf: 
+    - component:default/website-2
+  dependsOn:
+    - component:default/microsservico-1
+    - component:default/microsservico-2
+    - component:default/microsservico-3
+  
